@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import StartGameScreen from "./screens/StartGameScreen";
 import GameScreen from "./screens/GameScreen";
 
-export default function app() {
+export default function App() {
   const [userNumber, setUserNumber] = useState();
 
   const startGameHandler = (selectedNumber) => {
